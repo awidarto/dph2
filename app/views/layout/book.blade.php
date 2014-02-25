@@ -23,6 +23,7 @@
     {{ HTML::style('stylesheets/skeleton.css') }}
     {{ HTML::style('stylesheets/layout.css') }}
     {{ HTML::style('font-awesome-4.0.3/css/font-awesome.min.css') }}
+    {{ HTML::style('stylesheets/slicknav.css') }}
 
 
     <!--[if lt IE 9]>
@@ -53,6 +54,31 @@
             color:#999;
         }
 
+        ul#menu{
+            z-index: 1000;
+            position: absolute;
+            width: inherit;
+            background: white;
+            border-radius: 6px;
+            border: thin solid #eee;
+            min-height: 200px;
+            max-height: 400px;
+            overflow: auto;
+            margin-top: 6px;
+        }
+
+        ul#menu li{
+            display: block;
+            padding-top: 8px;
+            text-align: left;
+        }
+
+        ul#menu li a{
+            display: block;
+            padding: 12px;
+            text-align: left;
+        }
+
         @media only screen and (max-width: 767px) {
             #masthead{
                 text-align: center;
@@ -64,7 +90,25 @@
                 text-align: center;
             }
         }
+
+        #nav-box{
+            position: relative;
+        }
+
     </style>
+
+    {{ HTML::script('js/jquery-1.11.0.min.js') }}
+
+    {{ HTML::script('js/jquery.slicknav.min.js') }}
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#bt-toc').on('click',function(){
+                $('#menu').toggle();
+                return false;
+            })
+        });
+    </script>
 
 </head>
 <body>
@@ -80,17 +124,25 @@
         <div class="ten columns">
             <h2 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h2>
         </div>
-        <div class="five columns" style="display:block;padding:6px;text-align:center;">
+        <div id="nav-box" class="five columns" style="display:block;padding:6px;text-align:center;">
             <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;float;right;">
                 <li><a href="{{ URL::to('chapter/'.$prev)}}"><i class="fa fa-chevron-left fa-2x"></i></a></li>
-                <li><a href="{{ URL::to('toc')}}"><i class="fa fa-list fa-2x"></i></a></li>
+                <li><a href="{{ URL::to('toc')}}" id="bt-toc" ><i class="fa fa-list fa-2x"></i></a></li>
                 <li><a href="{{ URL::to('chapter/'.$next)}}"><i class="fa fa-chevron-right fa-2x"></i></a></li>
+            </ul>
+            <ul id="menu" style="display:none;">
+                <?php $idx = 0; ?>
+                @foreach ($pages as $page)
+
+                    <li><a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">{{ $page }}</a></li>
+                    <?php $idx++; ?>
+
+                @endforeach
             </ul>
         </div>
         <hr />
     </div>
     <div class="container">
-
         <div class="sixteen columns">
             @yield('content')
         </div>
