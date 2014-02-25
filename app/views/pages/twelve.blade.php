@@ -16,13 +16,11 @@
         我在网上搜索，找到几个类似的真实故事。其中一个在这里：
     </p>
     <p>
-            <object width="320" height="240">
-            <param name="movie" value="http://www.youtube.com/v/cGRNqkP35qM?fs=1&amp;hl=de_DE&amp;hd=1"></param>
-            <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
-            <embed src="http://www.youtube.com/v/cGRNqkP35qM?fs=1&amp;hl=de_DE&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="1280" height="750"></embed>
-            </object>
+        <div class="video-container">
+             <iframe src="http://www.youtube.com/embed/cGRNqkP35qM" frameborder="0" width="560" height="315"></iframe>
+        </div>
 
-            <div class="caption"><p>Hospice Sweetheart Wed<br />(Internetconnection required).</p></div>
+        <div class="caption"><p>Hospice Sweetheart Wed<br />(Internetconnection required).</p></div>
     </p>
     <p>
         两位平凡人，在生命与疾病的重压下，奄奄喘气。新郎软弱的双腿，甚至难以支撑自己的身躯。但是，他们行了难行之事。到最后，新娘说：我们结婚了。然后幽幽地说：我会想念他的。

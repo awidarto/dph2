@@ -47,11 +47,9 @@
     <p>
         这真是一首好歌。有一次，李宗盛亲自唱，不到两段，哽咽起来，再也唱不下去。有人猜测，那是因为张艾嘉在他唱前追问：你有没有爱过我？也或许，华文歌坛的大厦，如红楼倾塌，大师也难掩沧桑之苦。真相是什么，除了当事人，有谁知道呢？连张艾嘉也说：关于我们的事，他们统统猜错了。重要的，是要选择如何再出发。是：一任阶前雨，点滴到天明？还是：老骥伏枥，志在千里？
     </p>
-        <object width="320" height="240">
-            <param name="movie" value="http://www.youtube.com/v/stA1xZ7xahw?fs=1&amp;hl=de_DE&amp;hd=1"></param>
-            <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
-            <embed src="http://www.youtube.com/v/stA1xZ7xahw?fs=1&amp;hl=de_DE&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="320" height="240"></embed>
-        </object>
+        <div class="video-container">
+                 <iframe src="http://www.youtube.com/embed/stA1xZ7xahw" frameborder="0" width="560" height="315"></iframe>
+        </div>
 
         <div class="caption"><p>Dover Park Hospice - Our Patients' Stories<br />(Internet connection required).</p></div>
 
@@ -61,11 +59,10 @@
     <p>
         那花，自顾自盛开，什么都不理，仿佛天地洪荒，永远不凋零。
     </p>
-        <object width="320" height="240">
-            <param name="movie" value="http://www.youtube.com/v/X_-M3a5Q9RM?fs=1&amp;hl=de_DE&amp;hd=1"></param>
-            <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
-            <embed src="http://www.youtube.com/v/X_-M3a5Q9RM?fs=1&amp;hl=de_DE&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="320" height="240"></embed>
-        </object>
+
+        <div class="video-container">
+                 <iframe src="http://www.youtube.com/embed/X_-M3a5Q9RM" frameborder="0" width="560" height="315"></iframe>
+        </div>
 
         <div class="caption"><p>爱的代价-李宗盛<br />(Internet connection required).</p></div>
 

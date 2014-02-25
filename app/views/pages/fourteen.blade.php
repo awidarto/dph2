@@ -23,11 +23,9 @@
     <p>
         你想起周杰伦和洪荣宏合唱的“阿爸”。洪荣宏的父亲，洪一峰，早年在码头与市集卖唱为生，后成立歌舞团，在台湾各地巡回演唱，崛起为“宝岛歌王”。洪荣宏为长子，从小接受父亲的魔鬼训练，三岁开始，一起床就练嗓，弹琴。洪荣宏后来一举成名，自成一家。但是，光辉的明星家庭背后，有本本难念的经，包括：爸爸外遇、儿子汹酒、生活拮据。 洪一峰逝世后，洪家找来周杰伦和方文山，为“阿爸”电影谱写主题曲。 你找到一个两人合唱的视屏：
     </p>
-            <object width="320" height="240">
-            <param name="movie" value="http://www.youtube.com/v/94QbQaTK364?fs=1&amp;hl=de_DE&amp;hd=1"></param>
-            <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
-            <embed src="http://www.youtube.com/v/94QbQaTK364?fs=1&amp;hl=de_DE&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="1280" height="750"></embed>
-            </object>
+            <div class="video-container">
+                     <iframe src="http://www.youtube.com/embed/94QbQaTK364" frameborder="0" width="560" height="315"></iframe>
+            </div>
 
             <div class="caption"><p>周杰倫 洪榮宏 - 阿爸 Mr.J頻道<br />(Internet connection required).</p></div>
     <blockquote>
