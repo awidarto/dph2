@@ -67,10 +67,20 @@
             margin-top: 6px;
         }
 
+        ul#menu li{
+            margin:0px;
+        }
+
         ul#menu li a{
             display: block;
-            padding: 12px;
+            padding: 16px;
             text-align: left;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        ul#menu li a:hover{
+            background-color: #ccc;
         }
 
         @media only screen and (max-width: 767px) {
@@ -82,6 +92,10 @@
         @media only screen and (max-width: 479px) {
             #masthead{
                 text-align: center;
+            }
+
+            ul#menu{
+                height:80%;
             }
         }
 
@@ -132,7 +146,7 @@
 
     <div class="container">
         <div class="ten columns">
-            <h2 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h2>
+            <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
         </div>
         <div id="nav-box" class="five columns" style="display:block;padding:6px;text-align:center;">
             <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;float;right;">
