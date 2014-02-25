@@ -4,10 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fullscreen Pageflip Layout with BookBlock</title>
-        <meta name="description" content="Fullscreen Pageflip Layout with BookBlock" />
+        <title>Dover Park Stories</title>
+        <meta name="description" content="Fullscreen Pageflip Layout of Dover Park Stories" />
         <meta name="keywords" content="fullscreen pageflip, booklet, layout, bookblock, jquery plugin, flipboard layout, sidebar menu" />
-        <meta name="author" content="Codrops" />
+        <meta name="author" content="Andy Awidarto" />
         <link rel="shortcut icon" href="../favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />
         <link rel="stylesheet" type="text/css" href="css/bookblock.css" />

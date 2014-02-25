@@ -8,9 +8,9 @@
     <!-- Basic Page Needs
   ================================================== -->
     <meta charset="utf-8">
-    <title>Your Page Title Here :)</title>
+    <title>Dover Park Stories</title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Andy Awidarto">
 
     <!-- Mobile Specific Metas
   ================================================== -->
