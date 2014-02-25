@@ -67,12 +67,6 @@
             margin-top: 6px;
         }
 
-        ul#menu li{
-            display: block;
-            padding-top: 8px;
-            text-align: left;
-        }
-
         ul#menu li a{
             display: block;
             padding: 12px;

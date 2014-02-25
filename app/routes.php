@@ -86,7 +86,7 @@ Route::get('chapter/{name}',function($name = null){
     if($current == 0){
         $prev = $pages[$current];
         $next = $pages[$current + 1];
-    }else if($current == count($pages)){
+    }else if($current == count($pages) - 1){
         $prev = $pages[$current - 1];
         $next = $pages[$current];
     }else{
