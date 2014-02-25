@@ -95,7 +95,7 @@ Route::get('chapter/{name}',function($name = null){
     }
 
 
-    return View::make('chapters.'.$pages[$current] )
+    return View::make('chapters.page' )
         ->with('pages',$pages)
         ->with('current',$current)
         ->with('prev',$prev)

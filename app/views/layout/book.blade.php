@@ -53,6 +53,17 @@
             color:#999;
         }
 
+        @media only screen and (max-width: 767px) {
+            #masthead{
+                text-align: center;
+            }
+        }
+
+        @media only screen and (max-width: 479px) {
+            #masthead{
+                text-align: center;
+            }
+        }
     </style>
 
 </head>
@@ -67,7 +78,7 @@
 
     <div class="container">
         <div class="ten columns">
-            <h2 class="remove-bottom" style="margin-top: 10px">Dover Park Stories</h2>
+            <h2 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h2>
         </div>
         <div class="five columns" style="display:block;padding:6px;text-align:center;">
             <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;float;right;">

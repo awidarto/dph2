@@ -18,7 +18,8 @@
         <div id="container" class="container">
 
             <div class="menu-panel">
-                <h3>Table of Contents</h3>
+                <h3>Dover Park Stories</h3>
+                <h4>Table of Content</h4>
                 <ul id="menu-toc" class="menu-toc">
                     @section('nav')
                         This is the master sidebar.
