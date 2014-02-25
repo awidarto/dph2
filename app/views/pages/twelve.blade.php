@@ -36,13 +36,11 @@
             直到失去力气
             为了你  我愿意
     </p>
-    <p>
-            <object width="320" height="240">
-            <param name="movie" value="http://www.youtube.com/v/0l0nbr4U5ns?fs=1&amp;hl=de_DE&amp;hd=1"></param>
-            <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
-            <embed src="http://www.youtube.com/v/0l0nbr4U5ns?fs=1&amp;hl=de_DE&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="1280" height="750"></embed>
-            </object>
 
+    <p>
+        <div class="video-container">
+             <iframe src="http://www.youtube.com/embed/0l0nbr4U5ns" frameborder="0" width="560" height="315"></iframe>
+        </div>
             <div class="caption"><p>林憶蓮 至少還有你<br />(Internet connection required).</p></div>
     </p>
     <p>
