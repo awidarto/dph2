@@ -21,6 +21,7 @@
 
     {{ HTML::style('stylesheets/base.css') }}
     {{ HTML::style('stylesheets/skeleton.css') }}
+    {{ HTML::style('font-awesome-4.0.3/css/font-awesome.min.css') }}
     {{ HTML::style('stylesheets/layout.css') }}
 
     <!--[if lt IE 9]>

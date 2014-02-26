@@ -49,8 +49,6 @@
             padding-top: 16px;
             padding-bottom: 6px;
             margin: 4px;
-            border-radius: 6px;
-            border: thin solid #eee;
             color:#999;
         }
 
@@ -151,17 +149,42 @@
     <!-- Delete everything in this .container and get started on your own site! -->
 
     <div class="container">
+        {{--
         <div class="ten columns">
             <a href="{{URL::to('/')}}" style="text-decoration:none;">
                 <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
             </a>
         </div>
-        <div id="nav-box" class="five columns" style="display:block;padding:6px;text-align:center;">
-            <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;float;right;">
-                <li><a href="{{ URL::to('chapter/'.$prev)}}"><i class="fa fa-chevron-left fa-2x"></i></a></li>
-                <li><a href="{{ URL::to('toc')}}" id="bt-toc" ><i class="fa fa-list fa-2x"></i></a></li>
-                <li><a href="{{ URL::to('chapter/'.$next)}}"><i class="fa fa-chevron-right fa-2x"></i></a></li>
+        --}}
+        <div id="nav-box" class="five columns" style="display:block;padding:6px;">
+            <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;">
+                <li>
+                    <a href="{{ URL::to('toc')}}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-list fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ URL::to('chapter/'.$prev)}}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-left fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ URL::to('chapter/'.$next)}}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
             </ul>
+            {{--
+
             <ul id="menu" style="display:none;">
                 <?php $idx = 0; ?>
                 @foreach ($pages as $page)
@@ -184,6 +207,7 @@
 
                 @endforeach
             </ul>
+            --}}
         </div>
         <hr />
     </div>

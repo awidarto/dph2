@@ -13,6 +13,19 @@
         margin-top:200px;
         }
 
+.cover-nav{
+    margin-top: 400px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.cover-nav a{
+    float: left;
+    padding: 10px;
+    margin:10px;
+    display: inline-block;
+    color: #ccc;
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -39,9 +52,20 @@
     <div class="container" style="min-height:100%;width:100%;background:url( images/dph-dossier-start-bg.jpg ) top center no-repeat">
         <div class="sixteen columns dossier-start-bg" style="height:100%;min-height:100%;display:block;overflow:hidden;">
 
-            <a href="{{ URL::to($firstchapter)}}">
-                <img src="images/dph-cover-typo.png" alt="cover" />
-            </a>
+            <div class="cover-nav">
+                <a href="{{ URL::to('toc')}}">
+                    <span class="fa-stack fa-3x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-list fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+                <a href="{{ URL::to($firstchapter)}}">
+                    <span class="fa-stack fa-3x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </div>
 
 
         </div>
