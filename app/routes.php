@@ -84,14 +84,18 @@ Route::get('chapter/{name}',function($name = null){
     }
 
     if($current == 0){
-        $prev = $pages[$current];
-        $next = $pages[$current + 1];
+        $prev = 'chapter/'.$pages[$current];
+        $next = 'chapter/'.$pages[$current + 1];
     }else if($current == count($pages) - 1){
-        $prev = $pages[$current - 1];
-        $next = $pages[$current];
+        $prev = 'chapter/'.$pages[$current - 1];
+        $next = 'chapter/'.$pages[$current];
     }else{
-        $prev = $pages[$current - 1];
-        $next = $pages[$current + 1];
+        $prev = 'chapter/'.$pages[$current - 1];
+        $next = 'chapter/'.$pages[$current + 1];
+    }
+
+    if($prev == 'chapter/cover'){
+        $prev = 'toc';
     }
 
 
@@ -130,16 +134,19 @@ Route::get('toc',function($name = null){
     }
 
     if($current == 0){
-        $prev = $pages[$current];
-        $next = $pages[$current + 1];
+        $prev = 'chapter/'.$pages[$current];
+        $next = 'chapter/'.$pages[$current + 1];
     }else if($current == count($pages) - 1){
-        $prev = $pages[$current - 1];
-        $next = $pages[$current];
+        $prev = 'chapter/'.$pages[$current - 1];
+        $next = 'chapter/'.$pages[$current];
     }else{
-        $prev = $pages[$current - 1];
-        $next = $pages[$current + 1];
+        $prev = 'chapter/'.$pages[$current - 1];
+        $next = 'chapter/'.$pages[$current + 1];
     }
 
+    if($prev == 'chapter/cover'){
+        $prev = 'toc';
+    }
 
     return View::make('toc' )
         ->with('pages',$pages)

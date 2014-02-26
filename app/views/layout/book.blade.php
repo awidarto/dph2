@@ -167,7 +167,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ URL::to('chapter/'.$prev)}}">
+                    <a href="{{ URL::to($prev)}}">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-chevron-left fa-stack-1x fa-inverse"></i>
@@ -175,7 +175,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ URL::to('chapter/'.$next)}}">
+                    <a href="{{ URL::to($next)}}">
                         <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
