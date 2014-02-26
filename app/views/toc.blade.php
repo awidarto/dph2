@@ -20,6 +20,10 @@
             }
         }
 
+        .chevron{
+            color: #999;
+        }
+
         @media only screen and (max-width: 479px) {
             .synopsis, .chevron{
                 display:none;
