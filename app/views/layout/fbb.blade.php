@@ -18,7 +18,7 @@
         <div id="container" class="container">
 
             <div class="menu-panel">
-                <h3>Dover Park Stories</h3>
+                <a href="{{URL::to('/')}}"><h3>Dover Park Stories</h3></a>
                 <h4>Table of Content</h4>
                 <ul id="menu-toc" class="menu-toc">
                     @section('nav')
@@ -26,7 +26,7 @@
                     @show
                 </ul>
                 <div>
-                    <a href="http://tympanus.net/Development/AudioPlayer/">&copy; 2014 Jayon Books</a>
+                    <a href="http://analytics.kickstartlab.com/dph2">&copy; 2014 Jayon Books</a>
                 </div>
             </div>
 

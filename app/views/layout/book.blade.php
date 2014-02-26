@@ -152,7 +152,9 @@
 
     <div class="container">
         <div class="ten columns">
-            <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
+            <a href="{{URL::to('/')}}" style="text-decoration:none;">
+                <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
+            </a>
         </div>
         <div id="nav-box" class="five columns" style="display:block;padding:6px;text-align:center;">
             <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;float;right;">

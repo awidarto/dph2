@@ -17,20 +17,19 @@
 @media only screen and (max-width: 767px) {
 
     .dossier-start-bg img {
-    width:90%;
-    height:auto;
+        width:90%;
+        height:auto;
     }
 
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-.dossier-start-bg img {
-    width:90%;
-    height:auto;
-    margin-top:0px;
+    .dossier-start-bg img {
+        width:90%;
+        height:auto;
+        margin-top:0px;
     }
-
 
 }
 

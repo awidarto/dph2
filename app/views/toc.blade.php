@@ -14,6 +14,17 @@
             border-radius: 16px;
         }
 
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+            .synopsis{
+                display:none;
+            }
+        }
+
+        @media only screen and (max-width: 479px) {
+            .synopsis{
+                display:none;
+            }
+        }
     </style>
 
     <h2>TOC</h2>
@@ -31,12 +42,14 @@
                     <div class="two columns item-img">
                         <img src="{{ URL::to('/') }}/images/toc-thumb.jpg">
                     </div>
-                    <div class="synopsis thirteen columns">
+
+                    <div class="thirteen columns">
                         <h3>{{ $title }}</h3>
                         <p class="synopsis">
                             {{ truncate($synopsis, 200) }}
                         </p>
                     </div>
+
                     <div class="one columns" style="position:relative;">
                         <i class="fa fa-chevron-right fa-2x" style="position:absolute;right:0;top:30px;margin: auto 0px auto 0px;" ></i>
                     </div>
