@@ -32,9 +32,9 @@ Route::get('book2',function(){
     }
 
 
-    return View::make('fbook')->with('pages',$pages);
+    return View::make('fbook')->with('pages',$pages)
+            ->with('meta', $book->metadata);
 });
-
 
 Route::get('cover',function(){
     $book = file_get_contents(public_path().'/book.json');
@@ -100,8 +100,54 @@ Route::get('chapter/{name}',function($name = null){
         ->with('current',$current)
         ->with('prev',$prev)
         ->with('next',$next)
+        ->with('meta', $book->metadata)
         ;
 });
 
+Route::get('toc',function($name = null){
+
+    $book = file_get_contents(public_path().'/book.json');
+
+    $book = json_decode($book);
+
+    $pages = array();
+
+    $current = 0;
+
+    $index = 0;
+
+    foreach($book->contents as $c){
+        $n = str_replace('.html', '', $c);
+
+        $pages[] = $n;
+
+        if($n == $name){
+            $current = $index;
+        }
+
+        $index++;
+
+    }
+
+    if($current == 0){
+        $prev = $pages[$current];
+        $next = $pages[$current + 1];
+    }else if($current == count($pages) - 1){
+        $prev = $pages[$current - 1];
+        $next = $pages[$current];
+    }else{
+        $prev = $pages[$current - 1];
+        $next = $pages[$current + 1];
+    }
+
+
+    return View::make('toc' )
+        ->with('pages',$pages)
+        ->with('current',$current)
+        ->with('prev',$prev)
+        ->with('next',$next)
+        ->with('meta', $book->metadata)
+        ;
+});
 
 

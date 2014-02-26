@@ -26,8 +26,7 @@
                     @show
                 </ul>
                 <div>
-                    <a href="http://tympanus.net/Development/AudioPlayer/">&larr; Previous Demo: Responsive Audio Player</a>
-                    <a href="http://tympanus.net/codrops/?p=12795">Back to the Codrops Article</a>
+                    <a href="http://tympanus.net/Development/AudioPlayer/">&copy; 2014 Jayon Books</a>
                 </div>
             </div>
 

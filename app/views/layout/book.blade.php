@@ -126,11 +126,17 @@
     {{ HTML::script('js/jquery.slicknav.min.js') }}
 
     <script type="text/javascript">
+        /*
+
+
+        */
         $(document).ready(function(){
+            /*
             $('#bt-toc').on('click',function(){
                 $('#menu').toggle();
                 return false;
             })
+            */
         });
     </script>
 
@@ -157,8 +163,21 @@
             <ul id="menu" style="display:none;">
                 <?php $idx = 0; ?>
                 @foreach ($pages as $page)
+                    <?php
+                        $mt = $meta[$idx];
+                        $title = $mt->title;
+                        $synopsis = $mt->synopsis;
+                    ?>
+                    <li>
+                        <a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">
+                            <img src="{{ public_path() }}/images/toc-thumb.jpg">
+                            <h6>{{ $title }}</h6>
+                            <div class="synopsis">
+                                {{ $synopsis }}
+                            </div>
 
-                    <li><a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">{{ $page }}</a></li>
+                        </a>
+                    </li>
                     <?php $idx++; ?>
 
                 @endforeach
