@@ -16,6 +16,7 @@
         像朵永远不凋零的花
         陪我经过那风吹雨打
         看世事无常   看沧桑变化
+        <img src="{{ URL::to('/')}}/chapter_data/images/11.jpg" class="pull-right" />
     </p>
     <p>
         这首歌，我在几个人生阶段听过，每次的感受都不同。

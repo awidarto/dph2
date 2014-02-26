@@ -81,6 +81,8 @@
     </p>
     <p>
         我回到钢琴前，弹奏 “只要为你活一天”。如果能再有一天，这位温文儒雅的男士，会选择怎么过？我不知道。他的深情，我们亦无法度量。
+            <img src="{{ URL::to('/')}}/chapter_data/images/08.jpg" class="pull-left" />
+
     </p>
 
     <div  class="caption">

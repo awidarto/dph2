@@ -77,6 +77,21 @@
             font-weight: bold;
         }
 
+        img{
+            padding: 6px;
+            border: thin solid #ccc;
+        }
+
+        img.pull-left{
+            float:left;
+            margin-right: 6px;
+        }
+
+        img.pull-right{
+            float:right;
+            margin-left: 6px;
+        }
+
         ul#menu li a:hover{
             background-color: #ccc;
         }

@@ -45,7 +45,7 @@
         @if( $page != 'cover')
         <li class="toc-item">
             <a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">
-                <div class="container" style="background: url({{ URL::to('/') }}/images/toc-thumb.jpg) 10px 10px no-repeat; background-size: 75px 75px;padding:5px;padding-left:85px;min-height:80px;height:80px" >
+                <div class="container" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/{{ str_pad($idx,2,'0', STR_PAD_LEFT) }}.png) 10px 10px no-repeat; background-size: 75px 75px;padding:5px;padding-left:85px;min-height:80px;height:80px" >
 
                     <div class="thirteen columns">
                         <h3>{{ $title }}</h3>
