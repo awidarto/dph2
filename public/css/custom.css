@@ -51,7 +51,7 @@ a:hover {
 }
 
 .slideRight {
-	left: 340px;
+	left: 680px;
 }
 
 .no-js .container {
@@ -60,7 +60,7 @@ a:hover {
 
 .menu-panel {
 	background: #666;
-	width: 340px;
+	width: 680px;
 	height: 100%;
 	position: fixed;
 	z-index: 1000;
@@ -72,7 +72,7 @@ a:hover {
 
 .js .menu-panel {
 	position: absolute;
-	left: -340px;
+	left: -680px;
 }
 
 .menu-panel h3,.menu-panel h4 {

@@ -26,10 +26,10 @@
         ?>
         @if($page != 'cover')
             <li>
-                <a href="#{{$page}}">
-
+                <a href="#{{$page}}" style="display:block;clear:both;padding:0px;">
+                    <img src="{{ URL::to('/') }}/images/toc-thumb.jpg" style="float:left;width:80px;height:auto;margin:0px;margin:5px;">
                     <h2>{{ $t }}</h2>
-                    <p>
+                    <p style="margin-left:90px;">
                         {{ truncate($s, 150) }}
                     </p>
                 </a>
