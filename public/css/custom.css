@@ -256,11 +256,49 @@ a:hover {
 	.no-js .container {
 		padding: 0;
 	}
+
 }
 
-@media screen and (max-width: 400px){
+@media screen and (min-width: 800px){
+    .no-js .menu-panel {
+        display: none;
+    }
+
+    .no-js .container {
+        padding: 0;
+    }
+
+    /* following determine the width of the panel*/
+    .js .menu-panel {
+        left: -680px;
+    }
+
+    .menu-panel {
+        width: 680px;
+    }
+
+    .slideRight{
+        left:680px;
+    }
+}
+
+@media screen and (max-width: 460px){
 	.menu-panel,
 	.content {
 		font-size: 75%;
 	}
+
+    /* following determine the width of the panel*/
+    .js .menu-panel {
+        left: -400px;
+    }
+
+    .menu-panel {
+        width: 400px;
+    }
+
+    .slideRight{
+        left:400px;
+    }
+
 }
