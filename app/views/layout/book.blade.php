@@ -117,6 +117,10 @@
             height: 100%;
         }
 
+        ul li a.dim{
+            color: #eee;
+        }
+
     </style>
 
     {{ HTML::script('js/jquery-1.11.0.min.js') }}
@@ -149,6 +153,8 @@
     <!-- Delete everything in this .container and get started on your own site! -->
 
     <div class="container">
+
+    @if($pages[$current] != 'cover')
         {{--
         <div class="ten columns">
             <a href="{{URL::to('/')}}" style="text-decoration:none;">
@@ -166,6 +172,7 @@
                         </span>
                     </a>
                 </li>
+                @if($prev != 'toc')
                 <li>
                     <a href="{{ URL::to($prev)}}">
                         <span class="fa-stack fa-lg">
@@ -174,6 +181,18 @@
                         </span>
                     </a>
                 </li>
+                @else
+                <li>
+                    <a href="{{ $pages[$current] }}" class="dim">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-left fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @endif
+
+                @if($pages[ count($pages) - 1 ] != $pages[ $current ])
                 <li>
                     <a href="{{ URL::to($next)}}">
                         <span class="fa-stack fa-lg">
@@ -182,6 +201,16 @@
                         </span>
                     </a>
                 </li>
+                @else
+                <li>
+                    <a href="{{ URL::to($next)}}" class="dim" >
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @endif
             </ul>
             {{--
 
@@ -209,8 +238,16 @@
             </ul>
             --}}
         </div>
+    @else
+            <div class="ten columns">
+                <a href="{{URL::to('/')}}" style="text-decoration:none;">
+                    <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
+                </a>
+            </div>
+    @endif
         <hr />
     </div>
+
     <div class="container">
         <div class="sixteen columns">
             @yield('content')

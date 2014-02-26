@@ -35,8 +35,6 @@
             }
         }
     </style>
-
-    <h2>TOC</h2>
     <?php $idx = 0; ?>
     @foreach ($pages as $page)
         <?php
