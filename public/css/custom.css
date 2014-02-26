@@ -51,7 +51,7 @@ a:hover {
 }
 
 .slideRight {
-	left: 240px;
+	left: 340px;
 }
 
 .no-js .container {
@@ -60,18 +60,19 @@ a:hover {
 
 .menu-panel {
 	background: #666;
-	width: 240px;
+	width: 340px;
 	height: 100%;
 	position: fixed;
 	z-index: 1000;
 	top: 0;
 	left: 0;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    overflow-y: auto;
 }
 
 .js .menu-panel {
 	position: absolute;
-	left: -240px;
+	left: -340px;
 }
 
 .menu-panel h3,.menu-panel h4 {
@@ -259,7 +260,7 @@ a:hover {
 
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
     .no-js .menu-panel {
         display: none;
     }
@@ -282,7 +283,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
 	.menu-panel,
 	.content {
 		font-size: 75%;
