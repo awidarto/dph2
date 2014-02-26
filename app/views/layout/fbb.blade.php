@@ -26,7 +26,7 @@
                     @show
                 </ul>
                 <div>
-                    <a href="http://analytics.kickstartlab.com/dph2">&copy; 2014 Jayon Books</a>
+                    <a href="http://analytics.kickstartlab.com/dph2/book2">&copy; 2014 Jayon Books</a>
                 </div>
             </div>
 
