@@ -282,7 +282,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 400px){
 	.menu-panel,
 	.content {
 		font-size: 75%;
@@ -290,15 +290,15 @@ a:hover {
 
     /* following determine the width of the panel*/
     .js .menu-panel {
-        left: -380px;
+        left: -340px;
     }
 
     .menu-panel {
-        width: 380px;
+        width: 340px;
     }
 
     .slideRight{
-        left:380px;
+        left:340px;
     }
 
 }
