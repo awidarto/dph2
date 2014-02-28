@@ -10,11 +10,20 @@
             display: inline-block;
         }
 
+        p.synopsis{
+            margin: 0px;
+        }
+
         .item-img img{
             border-radius: 16px;
         }
 
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
+        h3 {
+        font-size: 24px;
+        margin-bottom: 8px;
+        }
+
+        @media only all and (min-width: 480px) and (max-width: 767px) {
             .synopsis, .chevron{
                 display:none;
             }
@@ -24,14 +33,14 @@
             color: #999;
         }
 
-        @media only screen and (max-width: 479px) {
+        @media only all and (max-width: 479px) {
             .synopsis, .chevron{
                 display:none;
             }
 
-            .toc-item h3{
-                margin-top: 5px;
-                margin-left: 8px;
+            h3{
+                margin-top: 15px;
+                margin-left: 10px;
             }
         }
     </style>
@@ -43,14 +52,20 @@
             $synopsis = $mt->synopsis;
         ?>
         @if( $page != 'cover')
+            <?php
+                $tname = str_pad($idx,2,'0', STR_PAD_LEFT);
+                if(!file_exists(public_path().'/chapter_data/thumbs/'.$tname.'.png')){
+                    $tname = 'nothumb';
+                }
+            ?>
         <li class="toc-item">
             <a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">
-                <div class="container" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/{{ str_pad($idx,2,'0', STR_PAD_LEFT) }}.png) 10px 10px no-repeat; background-size: 75px 75px;padding:5px;padding-left:85px;min-height:80px;height:80px" >
+                <div class="container" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/{{ $tname }}.png) 10px 10px no-repeat; background-size: 75px 75px;padding:5px;padding-left:85px;min-height:80px;height:80px" >
 
                     <div class="thirteen columns">
-                        <h3>{{ $title }}</h3>
+                        <h3>Ch. {{ $idx }} - {{ $title }}</h3>
                         <p class="synopsis">
-                            {{ truncate($synopsis, 200) }}
+                            {{ truncate($synopsis, 150) }}
                         </p>
                     </div>
 
