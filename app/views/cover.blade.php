@@ -27,6 +27,11 @@
     color: #ccc;
 }
 
+.cover-nav h1{
+    color:#444;
+}
+
+
 @media only screen and (max-width: 767px) {
 
     .dossier-start-bg img {
@@ -52,7 +57,9 @@
     <div class="container" style="min-height:100%;width:100%;background:url( images/dph-dossier-start-bg.jpg ) top center no-repeat">
         <div class="sixteen columns dossier-start-bg" style="height:100%;min-height:100%;display:block;overflow:hidden;">
 
+
             <div class="cover-nav">
+                <h1>走过托福园</h1>
                 <a href="{{ URL::to('toc')}}">
                     <span class="fa-stack fa-3x">
                       <i class="fa fa-circle fa-stack-2x"></i>

@@ -32,72 +32,78 @@
         "eleven.html",
         "twelve.html",
         "thirteen.html",
-        "fourteen.html"
+        "fourteen.html",
+        "fifteen.html"
      ],
 
     "metadata": [
         {
-            "title": "Dover Park Stories",
+            "title": "走过托福园",
             "synopsis" :""
         },
 
         {
             "title": "朱丽娅",
-            "synopsis" :"The interviewer met with Julia, a 44 year-old female patient at the Dover Park Hospice. They talked about Julia's life, her family and her love for travel, while volunteers and nurses milled around offering massage, manicure and choice of dinner. The interviewer left before Julia's mother arrived with specially prepared dinner, and wondered how mother and daughter might have resembled a timeless sculpture in the Eternal City."
+            "synopsis" :"有一瞬间，她们完全静止，好像罗马城里那座永恒的大理石雕塑，纯洁，美丽。"
         },
 
         {
             "title": "开斋节庆",
-            "synopsis" :"A group of volunteers, patients and family members gathered for a Hari Raya celebration at Dover Park Hospice. The event started off with a Dikir Barat performance by a multiracial team, where some members had only learned the moves moments ago. It was followed by a band made up of several ex-convicts. The lead singer sang beautifully, but the author wondered why a Hari Raya song sounded so melancholy."
+            "synopsis" :"曲终人散，但我对那首哀伤的开斋节歌曲念念不忘。"
         },
         {
             "title": "出游",
-            "synopsis" :"More than twenty volunteers, two ambulance drivers and a nurse took three wheelchair bound patients for a weekly outing. The rain stopped in time for them to proceed to the Upper Pierce Reservoir, or they would have to go to the Changi Airport again. They carried many medical supplies and emergency equipment with them, including a stretcher that doubled up as a food tray."
+            "synopsis" :"病人腕上都系有塑胶环，上书个人资料。老翁每每等到无人的时候，悄悄把它除下，仿佛这是他最后无声的抗议。"
         },
         {
             "title": "天使的触摸",
-            "synopsis" :"A group of volunteers provide weekly massage service at Dover Park Hospice. They come across many patients with different personality, medical condition and struggles."
+            "synopsis" :"义工问：你要按摩吗？老妇声如蚊鸣。女儿说：她说她要起来跳跳，死得快。又说：放我去罢放我去罢。"
         },
         {
             "title": "春到托福园",
-            "synopsis" :"The pianist carried out the usual duty in the Dover Park Hospice at the eve of Chinese New Year. A friend visited the pianist, bringing wine and tidbits, mistaking the hospice for an old folk home."
+            "synopsis" :"前者让我体会我们无力控制生命，后者让我明白人生麻烦痛苦气愤事，许多皆由心生。从此我只专注我能力所及可以做好之事。"
         },
         {
             "title": "风的颜色",
-            "synopsis" :"The Colors of the Wind. A patient asked the pianist to play the song \"The Colors of the Wind\", forcing the pianist to confront his own life and priorities."
+            "synopsis" :"在一个黑暗的时刻，在巨痛中，当无法兑现的盼望终于绝迹，只剩下发抖弱小的生命，单独温习存在的意义，这首歌会安慰一个卑微的心灵，唤起一些美好的回忆。"
         },
         {
             "title": "吃",
-            "synopsis" :"Alice presided over the wards with nurses and other volunteers during dinner time in Dover Park Hospice, feeding and engaging in light-hearted banters with the patients."
+            "synopsis" :"走到这一步，终点在望，何必正经八百，嘻笑怒骂，一餐又过，岂不乐哉。"
         },
         {
             "title": "只要为你活一天",
-            "synopsis" :"If I could live one more day for you. The pianist plays the song “If i could live one more day for you” for a middle aged couple. Over time, the lady gradually lost her ability to recognize the people around her, but the man remained gentle and loving all the same."
+            "synopsis" :"男士坐在床边，握住她的手。这时，黄昏的斜晖已开始黯淡，周围的景色正逐渐朦胧，剩下来的一点点，反而变成晶莹剔透。"
         },
         {
             "title": "宽恕",
-            "synopsis" :"The pianist plays at the Rose Remembrance Service. He notices a middle-aged lady sobbing at the corner. Is she the mother who was reunited with a young patient not too long ago?"
+            "synopsis" :"也许，一世人的时间，只须两三个星期，恩仇便泯，只剩下最重要的，从此存留。"
         },
         {
             "title": "家后",
-            "synopsis" :"An old lady visiting her husband reminds the pianist of his grandmother."
+            "synopsis" :"那日，所有人一起站立，静默无声。我的琴声，也戛然而止。家后，是她尊贵的华冠。"
         },
         {
             "title": "永不凋零的花",
-            "synopsis" :"The pianist spent time with the gardening group. A pot of orchid reminded him of a song which carries different meanings at various stages of his life."
+            "synopsis" :"那花，自顾自盛开，什么都不理，仿佛天地洪荒，永远不凋零。"
         },
         {
             "title": "我愿意",
-            "synopsis" :"The pianist tried to find out the story about a wedding held in the Dover Park Hospice."
+            "synopsis" :"有一天，小男孩也会长大，明白什么叫做“天若有情天亦老”。到那日，我想他也会说：我愿意。"
         },
         {
             "title": "轻柔地",
-            "synopsis" :"Tenderly, A father picks up boxing after the passing away of his teenage daughter."
+            "synopsis" :"他残暴地攻击沙包，一次又一次，直到筋疲力尽。"
         },
         {
             "title": "回头看阿爸是山",
-            "synopsis" :"The son waited at the bed of his father, torn between wanting more time with him and releasing him from the pain."
+            "synopsis" :"你静静守候着，一动也不动，像一座山，继续这永恒的，无言的，对话。"
+        },
+        {
+            "title": "送行者",
+            "synopsis" :"那对母子，在一个炎热的午后，躲在阴凉的角落，享受彼此的体温。他们找寻一些特殊的广告，沉浸在简单的快乐之中。"
         }
+
      ]
 
 }

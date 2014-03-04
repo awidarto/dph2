@@ -27,6 +27,12 @@
             .synopsis, .chevron{
                 display:none;
             }
+
+            h3{
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+
         }
 
         .chevron{
@@ -40,9 +46,11 @@
 
             h3{
                 margin-top: 15px;
-                margin-left: 10px;
+                margin-left: 15px;
             }
         }
+
+
     </style>
     <?php $idx = 0; ?>
     @foreach ($pages as $page)

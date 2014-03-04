@@ -256,7 +256,7 @@
     @else
             <div class="ten columns">
                 <a href="{{URL::to('/')}}" style="text-decoration:none;">
-                    <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
+                    <h2 class="remove-bottom" id="masthead" style="margin-top: 10px">走过托福园</h2>
                 </a>
             </div>
     @endif
