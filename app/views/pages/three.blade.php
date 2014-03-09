@@ -21,8 +21,10 @@
     <p>
         再过一会，太阳逐渐升高，阳伞再也招架不住，大家便开始回头走去。到达池边小亭，食物早已摆开。 一义工站小台后，负责赶苍蝇。 小台上放满了小吃，水果与盒装饮品列在摊开的担架上。这担架也是应急配备，若病人出现状况，就得用它作警急撤离。今天风平浪静，三名病人面向水塘，旁有一小几停着杯盘。偶尔传来附近军队演习的炮声，也没有绰绰逼人的感觉。
     </p>
+    <p class="center">
+        <img src="{{ URL::to('/')}}/chapter_data/images/03.jpg"/>
+    </p>
     <p>
-        <img src="{{ URL::to('/')}}/chapter_data/images/03.jpg" class="pull-left" />
         病人腕上都系有塑胶环，上书个人资料。其中一名老翁，腕上有刺青，老人斑已经把图案推挤得模糊不清，手上却没有塑环。原来老翁每每把小环丢弃。护士重新系上，他不会挣扎，却会等到无人的时候，悄悄把它除下，仿佛这是他最后无声的抗议。
     </p>
     <p>
@@ -31,13 +33,3 @@
     <p>
         十一时十五分，在公园停留一小时四十三分钟后，我们离开。以后，有人会回来，有人不会。车窗外，热带的艳阳，千年依旧。
     </p>
-
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            More than twenty volunteers, two ambulance drivers and a nurse took three wheelchair bound patients for a weekly outing. The rain stopped in time for them to proceed to the Upper Pierce Reservoir, or they would have to go to the Changi Airport again. They carried many medical supplies and emergency equipment with them, including a stretcher that doubled up as a food tray.
-        </p>
-        <p>
-            由Lai Kok Fung于 13th October 2013发布
-        </p>
-    </div>

@@ -43,12 +43,3 @@
         两个小时后，八名义工围坐走廊沙发椅，闲谈用点心。其中数人，决定下周三，特加一班。
         最后含笑出现。
     </p>
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            A group of volunteers provide weekly massage service at Dover Park Hospice. They come across many patients with different personality, medical condition and struggles.
-        </p>
-        <p>
-            由Lai Kok Fung于 5th January 2013发布
-        </p>
-    </div>

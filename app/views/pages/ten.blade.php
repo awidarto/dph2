@@ -36,12 +36,3 @@
     <p>
         你身旁有位家后吗？或许你就是那个？回去，记得把他的手牵条条，不管人情世事，你是否已经看透。
     </p>
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            An old lady visiting her husband reminds the pianist of his grandmother.
-        </p>
-        <p>
-            由Lai Kok Fung于 13th October 2013发布
-        </p>
-    </div>

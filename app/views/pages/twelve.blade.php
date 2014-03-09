@@ -52,12 +52,3 @@
     <p>
         病房里的是爷爷。哥哥已经学会爱，所以不得不伤悲。有一天，小男孩也会长大，明白什么叫做“天若有情天亦老”。到那日，我想他也会说：我愿意。
     </p>
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            The pianist tried to find out the story about a wedding held in the Dover Park Hospice.
-        </p>
-        <p>
-            由Lai Kok Fung于 13th October 2013发布
-        </p>
-    </div>

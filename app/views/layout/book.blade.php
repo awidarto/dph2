@@ -96,6 +96,10 @@
             background-color: #ccc;
         }
 
+        blockquote{
+            border-left: none;
+        }
+
         @media only screen and (max-width: 767px) {
             #masthead{
                 text-align: center;
@@ -134,6 +138,10 @@
 
         ul li a.dim{
             color: #eee;
+        }
+
+        .center{
+            text-align: center;
         }
 
     </style>

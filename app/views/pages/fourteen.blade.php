@@ -28,28 +28,17 @@
             </div>
 
             <div class="caption"><p>周杰倫 洪榮宏 - 阿爸 Mr.J頻道<br />(Internet connection required).</p></div>
-    <blockquote>
-        <p>
-            站在事业巅峰的周杰伦，淡定从容，一路面带微笑。另一个思恋父亲的，中年滄桑尽写在脸上，唱得撕心裂肺。中间，插入一段父子同台演唱的片段，父唱子和，年轻的兒子笑得很开心。你听到这里：
-        </p>
-        <p>
-            不要不要痛，不愿不愿行<br />
-            。。。。。。<br />
-            回头看阿爸是山
-        </p>
-        <p>
-            不知怎的，悲从中来，泪流如注。
-        </p>
-        <p>
-            这时，房里鸦雀无声，阿爸的痰音，越来越清晰分明。你静静守候着，一动也不动，像一座山，继续这永恒的，无言的，对话。
-        </p>
-    </blockquote>
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            The son waited at the bed of his father, torn between wanting more time with him and releasing him from the pain.
-        </p>
-        <p>
-            由Lai Kok Fung于 15th December 2013发布
-        </p>
-    </div>
+    <p>
+        站在事业巅峰的周杰伦，淡定从容，一路面带微笑。另一个思恋父亲的，中年滄桑尽写在脸上，唱得撕心裂肺。中间，插入一段父子同台演唱的片段，父唱子和，年轻的兒子笑得很开心。你听到这里：
+    </p>
+    <p>
+        不要不要痛，不愿不愿行<br />
+        。。。。。。<br />
+        回头看阿爸是山
+    </p>
+    <p>
+        不知怎的，悲从中来，泪流如注。
+    </p>
+    <p>
+        这时，房里鸦雀无声，阿爸的痰音，越来越清晰分明。你静静守候着，一动也不动，像一座山，继续这永恒的，无言的，对话。
+    </p>

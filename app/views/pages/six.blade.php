@@ -16,19 +16,18 @@
     </p>
     <p>
         这片子和歌曲，我怎么都毫无印象？也许当时正逢隽敏出世，隽祥还不到两岁，忙昏了头，错过了。更可能的是：我当时迷失在盛世洪流中，自以为参透世情，把一切不符合我世局规律的观点都挡驾在意识以外了。现在倒带回去倾听九十年代的声音，有点惋惜当年虚度的光阴。而那副歌还在提问：
-    </p>
-    <p>
-            你可曾听过野狼对冷月长啸？
-            试问过苍鹰它鸿爪何处？
-            可否以群山之声歌唱？
+        <blockquote>
+            你可曾听过野狼对冷月长啸？<br />
+            试问过苍鹰它鸿爪何处？<br />
+            可否以群山之声歌唱？<br />
             绘尽风之颜色？
-    </p>
-    <p>
+        </blockquote>
         群山无语，风亦来去无踪。大音希声，大象无形。回首二十年，真是：沙上看日出，沙上看日没，悔向万里来，功名是何物？
     </p>
+    <p class="center">
+        <img src="{{ URL::to('/')}}/chapter_data/images/06.jpg" />
+    </p>
     <p>
-        <img src="{{ URL::to('/')}}/chapter_data/images/06.jpg" class="pull-left" />
-
         第二周，我走到涵妮丝床前，想用手机联线播音乐短片给她听，她却说：我想听你弹。我回到琴前，叮叮咚咚，弹得还不很熟练，但她说：一百分。然后她说：你应该多来一些。我点头，但我知道我办不到。那几周，家事公务，弄得我心力交瘁。
     </p>
     <p>
@@ -55,13 +54,3 @@
     <p>
         到那日，如果你愿意，你也会听到群山发声歌唱。
     </p>
-
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>The Colors of the Wind<br />
-            A patient asked the pianist to play the song "The Colors of the Wind", forcing the pianist to confront his own life and priorities.
-        </p>
-        <p>
-            由Lai Kok Fung于 13th April 2013发布
-        </p>
-    </div>

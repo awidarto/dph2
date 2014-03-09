@@ -72,12 +72,3 @@
         艾丝客串的宣传影片在这里：http://www.youtube.com/watch?v=stA1xZ7xahw ，在2:10处，中间端茶的那个。
         李宗盛唱“爱的代价”的录影在这里：http://www.youtube.com/watch?v=X_-M3a5Q9RM ，美丽的张艾嘉在最后含笑出现。
     </p>
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            The pianist spent time with the gardening group. A pot of orchid reminded him of a song which carries different meanings at various stages of his life.
-        </p>
-        <p>
-            由Lai Kok Fung于 13th September 2013发布
-        </p>
-    </div>

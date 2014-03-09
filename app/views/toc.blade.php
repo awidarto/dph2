@@ -73,7 +73,7 @@
                     <div class="thirteen columns">
                         <h3>{{ $idx }}. {{ $title }}</h3>
                         <p class="synopsis">
-                            {{ truncate($synopsis, 150) }}
+                            {{ $synopsis }}
                         </p>
                     </div>
 

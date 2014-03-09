@@ -249,6 +249,10 @@ a:hover {
 	text-align: justify;
 }
 
+p.center{
+    text-align: center;
+}
+
 @media screen and (max-width: 800px){
 	.no-js .menu-panel {
 		display: none;

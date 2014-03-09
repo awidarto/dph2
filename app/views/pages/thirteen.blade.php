@@ -85,12 +85,3 @@
     <p>
         注：更多杰西卡的故事在这里。
     </p>
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            Tenderly, A father picks up boxing after the passing away of his teenage daughter.
-        </p>
-        <p>
-            由Lai Kok Fung于 12th November 2013发布
-        </p>
-    </div>

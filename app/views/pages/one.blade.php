@@ -15,7 +15,6 @@
         朱丽娅在一家半导体公司担任行政助理。“但我很少和同事们一起旅行，因为他们喜欢购物。我也去过澳洲的主题公园，但我不喜欢”。我们聊起吴哥窟炎热的五月，斯洛维尼亚明媚的春天。“有一次在伊朗，我没围上头巾就匆匆出门，一大堆人瞪着我，害我赶紧跑回酒店”。她笑。也许，她忆起了北非广阔洪荒的沙漠，飘着袅袅炊烟人来人往的市集。
     </p>
     <p>
-        <img src="{{ URL::to('/')}}/chapter_data/images/01.jpg" class="pull-left" />
         有甚什么后悔的事吗？“在罗马，我和约翰教皇擦身而过，不曾握过伟人的手”。朱丽娅不是基督徒。伟人已逝。我问她记不记得圣彼得大教堂里，米开朗基罗那座叫做“圣殇”的雕塑：白色大理石，悲伤的玛利亚抱着横躺身前的儿子，凄清而美丽。
     </p>
     <p>
@@ -39,16 +38,9 @@
     <p>
         不久，我向朱丽娅告辞，没见到她的母亲。我猜想，她是一位平凡尊贵的东方老妇，额上有生命为她刻上的深纹。她提着悉心烹制的食品缓缓步入病房，坐在女儿床前。有一瞬间，她们完全静止，好像罗马城里那座永恒的大理石雕塑，纯洁，美丽。
     </p>
+    <p class="center">
+        <img src="{{ URL::to('/')}}/chapter_data/images/01.jpg" />
+    </p>
     <p>
         注：成此文于西元2011年7月30日，见朱丽娅后七天。朱丽娅于当日上午辞世。前一夜，朱丽娅与前来探望的朋友言谈甚欢，次日安然而去。
     </p>
-
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            The interviewer met with Julia, a 44 year-old female patient at the Dover Park Hospice. They talked about Julia's life, her family and her love for travel, while volunteers and nurses milled around offering massage, manicure and choice of dinner. The interviewer left before Julia's mother arrived with specially prepared dinner, and wondered how mother and daughter might have resembled a timeless sculpture in the Eternal City.
-        </p>
-        <p>
-            由Lai Kok Fung于 15th December 2013发布
-        </p>
-    </div>

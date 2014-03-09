@@ -42,14 +42,3 @@
 <p>
     那对母子，在一个炎热的午后，躲在阴凉的角落，享受彼此的体温。他们找寻一些特殊的广告，沉浸在简单的快乐之中。他们哈哈大笑，翻过了一页又一页，好像永无止境。
 </p>
-
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            Departure<br />
-A family arranged to transport the body from Dover Park Hospice to the final preparation place. While the pianist played on, a mother enjoyed life's simple pleasure with her son with special needs.
-        </p>
-        <p>
-            由Lai Kok Fung于 23rd February 2014发布
-        </p>
-    </div>

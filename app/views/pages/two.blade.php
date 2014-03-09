@@ -20,6 +20,9 @@
     <p>
         接下来轮到乐队上场，由一名马来女子介绍。原来这支其貌不扬的乐队叫做“完美组合”，部分组员曾是囚犯，今年是第二次在托福园演出。乐器插入拔出，又是一番霹雳巴拉。最终，音乐响起。小胖子唱出“北非谍影”的第一句，歌声有如天籁。会众惊为天人，现场顿时雀哑无声。曲罢，掌声雷动。一病人鼓掌，三名木无表情。第二首为马来节庆歌曲，原唱者为著名马来歌手苏迪曼。节庆歌曲原当喜气腾腾，但听小胖娓娓唱来，却仿佛有一丝哀怨围绕不去。曲罢，乐队谢场，卡拉OK开始，仍由阿古起头。一班人双双对对的踏着马来午步，欢叫声不绝于耳。席开，马来自助餐食物丰厚，皆由义工在家烹饪携带而来。病人陆续被推离。
     </p>
+    <p class="center">
+        <img src="{{ URL::to('/')}}/chapter_data/images/02.jpg" />
+    </p>
     <p>
         曲终人散，但我对那首哀伤的开斋节歌曲念念不忘，往网上搜查，得资料如下：
     </p>
@@ -30,25 +33,25 @@
         该歌名为“我远方的歉疚”，试翻译如下：
         <blockquote>
             <p>
-                在寒冷的凌晨中我心忧愁
-                想起离乡背井的辛酸
-                晨祷呼叫声中我泪眼盈眶
+                在寒冷的凌晨中我心忧愁<br />
+                想起离乡背井的辛酸<br />
+                晨祷呼叫声中我泪眼盈眶<br />
                 心中浮现家乡美丽的风光
             </p>
             <p>
-                我心思念 我欲还乡
-                期待奔向爹娘与亲人
-                但我必须为生活奔波
+                我心思念 我欲还乡<br />
+                期待奔向爹娘与亲人<br />
+                但我必须为生活奔波<br />
                 守护我们共同的盼望
             </p>
             <p>
-                我只能献上祷告和诚挚问候
-                从远处祈求你们的原谅
-                不要为了我们不能相聚而悲伤
+                我只能献上祷告和诚挚问候<br />
+                从远处祈求你们的原谅<br />
+                不要为了我们不能相聚而悲伤<br />
                 还是高兴庆祝这荣耀的开斋节吧！
             </p>
             <p>
-                爹娘的福气是我心所愿
+                爹娘的福气是我心所愿<br />
                 直到回到你们身边的那一天
             </p>
         </blockquote>
@@ -57,13 +60,3 @@
     <p>
         千年以前的宋朝，词人苏东坡也曾经感叹：人有悲欢离合，月有阴晴圆缺。这些自古难全的遗憾，世世代代，由不同的歌者，用各种语言，继续吟唱。
     </p>
-
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>
-            A group of volunteers, patients and family members gathered for a Hari Raya celebration at Dover Park Hospice. The event started off with a Dikir Barat performance by a multiracial team, where some members had only learned the moves moments ago. It was followed by a band made up of several ex-convicts. The lead singer sang beautifully, but the author wondered why a Hari Raya song sounded so melancholy.
-        </p>
-        <p>
-            由Lai Kok Fung于 7th October 2012发布
-        </p>
-    </div>

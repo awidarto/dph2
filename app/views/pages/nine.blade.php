@@ -47,13 +47,3 @@
         <img src="{{ URL::to('/')}}/chapter_data/images/09.jpg" class="pull-left" />
         注：可在此观赏相关影片。
     </p>
-
-    <div  class="caption">
-        <h3>Synopsis</h3>
-        <p>Forgive<br />
-            The pianist plays at the Rose Remembrance Service. He notices a middle-aged lady sobbing at the corner. Is she the mother who was reunited with a young patient not too long ago?
-        </p>
-        <p>
-            由Lai Kok Fung于 10th July 2013发布
-        </p>
-    </div>
