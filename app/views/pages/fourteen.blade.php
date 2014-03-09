@@ -23,18 +23,22 @@
     <p>
         你想起周杰伦和洪荣宏合唱的“阿爸”。洪荣宏的父亲，洪一峰，早年在码头与市集卖唱为生，后成立歌舞团，在台湾各地巡回演唱，崛起为“宝岛歌王”。洪荣宏为长子，从小接受父亲的魔鬼训练，三岁开始，一起床就练嗓，弹琴。洪荣宏后来一举成名，自成一家。但是，光辉的明星家庭背后，有本本难念的经，包括：爸爸外遇、儿子汹酒、生活拮据。 洪一峰逝世后，洪家找来周杰伦和方文山，为“阿爸”电影谱写主题曲。 你找到一个两人合唱的视屏：
     </p>
-            <div class="video-container">
-                     <iframe src="http://www.youtube.com/embed/94QbQaTK364" frameborder="0" width="560" height="315"></iframe>
-            </div>
+    <p>
+        <div class="video-container">
+                 <iframe src="http://www.youtube.com/embed/94QbQaTK364" frameborder="0" width="560" height="315"></iframe>
+        </div>
 
-            <div class="caption"><p>周杰倫 洪榮宏 - 阿爸 Mr.J頻道<br />(Internet connection required).</p></div>
+        <div class="caption"><p>周杰倫 洪榮宏 - 阿爸 Mr.J頻道<br />(Internet connection required).</p>
+        </div>
+    </p>
+
     <p>
         站在事业巅峰的周杰伦，淡定从容，一路面带微笑。另一个思恋父亲的，中年滄桑尽写在脸上，唱得撕心裂肺。中间，插入一段父子同台演唱的片段，父唱子和，年轻的兒子笑得很开心。你听到这里：
-    </p>
-    <p>
-        不要不要痛，不愿不愿行<br />
-        。。。。。。<br />
-        回头看阿爸是山
+        <blockquote>
+            不要不要痛，不愿不愿行<br />
+            。。。。。。<br />
+            回头看阿爸是山
+        </blockquote>
     </p>
     <p>
         不知怎的，悲从中来，泪流如注。

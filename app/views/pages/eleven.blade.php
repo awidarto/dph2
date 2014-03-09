@@ -12,11 +12,12 @@
         我和他们聊了一会，便回到钢琴前继续弹琴。心中闪过小桌上的胡姬，弹起李宗盛的“爱的代价”：
     </p>
     <p>
-        还记得年少时的梦吗？
-        像朵永远不凋零的花
-        陪我经过那风吹雨打
-        看世事无常   看沧桑变化
-        <img src="{{ URL::to('/')}}/chapter_data/images/11.jpg" class="pull-right" />
+        <blockquote>
+            还记得年少时的梦吗？<br />
+            像朵永远不凋零的花<br />
+            陪我经过那风吹雨打<br />
+            看世事无常   看沧桑变化
+        </blockquote>
     </p>
     <p>
         这首歌，我在几个人生阶段听过，每次的感受都不同。
@@ -28,19 +29,23 @@
         第二次，十多年后，我在伦敦盖威克机场，等待乘撘廉航前往立陶宛公干。我挤在波罗地海人当中；他们白皮肤，棕色头发，高大魁梧。起飞后往下看，泰晤士河在暮色苍茫中，弯弯曲曲东流入海。两岸树叶，已被秋风染黄，凄清萧索。耳中，张艾嘉的歌声从iPod传来。她如此唱道：
     </p>
     <p>
-               也许我偶而还是会想他
-               偶而难免会惦记着他
-               就当他是个老朋友啊
-               也让我心疼   也让我牵挂
+        <blockquote>
+            也许我偶而还是会想他<br />
+            偶而难免会惦记着他<br />
+            就当他是个老朋友啊<br />
+            也让我心疼   也让我牵挂
+        </blockquote>
     </p>
     <p>
         想起不久前毅然割绝，曾经坚持的理念，心中浮起一阵悲凉。机窗外，江阔云低，我坐在冰冷的钢铁机器里，呼啸飞往一个陌生的城市，像一只断雁，无语叫西风。而她还在继续唱：
     </p>
     <p>
-               只是我心中不再有火花
-               让往事都随风去吧
-               所有真心的痴心的话
-               仍在我心中   虽然已没有他！
+        <blockquote>
+            只是我心中不再有火花<br />
+            让往事都随风去吧<br />
+            所有真心的痴心的话<br />
+            仍在我心中   虽然已没有他！
+        </blockquote>
     </p>
     <p>
         第三次，就在托福园里。此时，心绪已逐渐平息，鬓将星星也。然而，穿梭在病房孱弱的身躯当中，目睹许多悲欢离合，有时仍不免怆然。
@@ -48,27 +53,17 @@
     <p>
         这真是一首好歌。有一次，李宗盛亲自唱，不到两段，哽咽起来，再也唱不下去。有人猜测，那是因为张艾嘉在他唱前追问：你有没有爱过我？也或许，华文歌坛的大厦，如红楼倾塌，大师也难掩沧桑之苦。真相是什么，除了当事人，有谁知道呢？连张艾嘉也说：关于我们的事，他们统统猜错了。重要的，是要选择如何再出发。是：一任阶前雨，点滴到天明？还是：老骥伏枥，志在千里？
     </p>
-        <div class="video-container">
-                 <iframe src="http://www.youtube.com/embed/stA1xZ7xahw" frameborder="0" width="560" height="315"></iframe>
-        </div>
-
-        <div class="caption"><p>Dover Park Hospice - Our Patients' Stories<br />(Internet connection required).</p></div>
-
     <p>
         我弹完这首歌，又跑去找艾丝他们。她拔了一把菜交给我，说：煮汤应该不错。我心想：拿回去交给太太处理吧。我握住一把青菜回头走，经过小桌，又看见那株胡姬花。
     </p>
     <p>
         那花，自顾自盛开，什么都不理，仿佛天地洪荒，永远不凋零。
     </p>
-
-        <div class="video-container">
-                 <iframe src="http://www.youtube.com/embed/X_-M3a5Q9RM" frameborder="0" width="560" height="315"></iframe>
-        </div>
-
-        <div class="caption"><p>爱的代价-李宗盛<br />(Internet connection required).</p></div>
-
+    <p class="center">
+        <img src="{{ URL::to('/')}}/chapter_data/images/11.jpg" />
+    </p>
     <p>
         注：
-        艾丝客串的宣传影片在这里：http://www.youtube.com/watch?v=stA1xZ7xahw ，在2:10处，中间端茶的那个。
-        李宗盛唱“爱的代价”的录影在这里：http://www.youtube.com/watch?v=X_-M3a5Q9RM ，美丽的张艾嘉在最后含笑出现。
+        艾丝客串的宣传影片在这里：<a href="http://www.youtube.com/watch?v=stA1xZ7xahw">http://www.youtube.com/watch?v=stA1xZ7xahw</a> ，在2:10处，中间端茶的那个。<br />
+        李宗盛唱“爱的代价”的录影在这里：<a href="http://www.youtube.com/watch?v=X_-M3a5Q9RM">http://www.youtube.com/watch?v=X_-M3a5Q9RM</a> ，美丽的张艾嘉在最后含笑出现。
     </p>
