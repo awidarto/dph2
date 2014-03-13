@@ -100,6 +100,10 @@
             border-left: none;
         }
 
+        .caption{
+            text-align: center;
+        }
+
         @media only screen and (max-width: 767px) {
             #masthead{
                 text-align: center;
@@ -142,6 +146,15 @@
             margin-left: auto;
             display: block;
         }
+
+        .video-container iframe{
+            position: relative;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            min-height: 250px;
+        }
+
 
         ul li a.dim{
             color: #eee;
