@@ -71,6 +71,7 @@ body{
 
             <div class="cover-nav">
                 <h1>走过托福园</h1>
+                <h3>赖国芳</h3>
                 <a href="{{ URL::to('toc')}}">
                     <span class="fa-stack fa-3x">
                       <i class="fa fa-circle fa-stack-2x"></i>

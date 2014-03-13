@@ -122,8 +122,10 @@
 
         .video-container {
             position: relative;
-            padding-bottom: 56.25%;
-            padding-top: 30px; height: 0; overflow: hidden;
+            padding-top: 30px;
+            overflow: hidden;
+            min-height: 300px;
+            display: block;
         }
 
         .video-container iframe,
@@ -132,9 +134,13 @@
             position: absolute;
             top: 0;
             left: 0;
-            max-width: 400px;
+            width: 100%;
             height: 100%;
+            max-width: 400px;
             max-height: 300px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
         }
 
         ul li a.dim{
