@@ -132,8 +132,9 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
+            max-width: 400px;
             height: 100%;
+            max-height: 300px;
         }
 
         ul li a.dim{
@@ -278,6 +279,94 @@
 
     </div><!-- container -->
 
+    <div class="container">
+    @if($pages[$current] != 'cover')
+        {{--
+        <div class="ten columns">
+            <a href="{{URL::to('/')}}" style="text-decoration:none;">
+                <h4 class="remove-bottom" id="masthead" style="margin-top: 10px">Dover Park Stories</h4>
+            </a>
+        </div>
+        --}}
+        <hr />
+        <div id="nav-box" class="five columns" style="display:block;padding:6px;">
+            <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;">
+                <li>
+                    <a href="{{ URL::to('toc')}}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-list fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @if($prev != 'toc')
+                <li>
+                    <a href="{{ URL::to($prev)}}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-left fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @else
+                <li>
+                    <a href="{{ $pages[$current] }}" class="dim">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-left fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @endif
+
+                @if($pages[ count($pages) - 1 ] != $pages[ $current ])
+                <li>
+                    <a href="{{ URL::to($next)}}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @else
+                <li>
+                    <a href="{{ URL::to($next)}}" class="dim" >
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                @endif
+            </ul>
+            {{--
+
+            <ul id="menu" style="display:none;">
+                <?php $idx = 0; ?>
+                @foreach ($pages as $page)
+                    <?php
+                        $mt = $meta[$idx];
+                        $title = $mt->title;
+                        $synopsis = $mt->synopsis;
+                    ?>
+                    <li>
+                        <a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">
+                            <img src="{{ public_path() }}/images/toc-thumb.jpg">
+                            <h6>{{ $title }}</h6>
+                            <div class="synopsis">
+                                {{ $synopsis }}
+                            </div>
+
+                        </a>
+                    </li>
+                    <?php $idx++; ?>
+
+                @endforeach
+            </ul>
+            --}}
+        </div>
+    @endif
+    </div>
 
 <!-- End Document
 ================================================== -->

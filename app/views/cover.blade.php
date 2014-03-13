@@ -3,8 +3,19 @@
 @section('content')
 
 <style type="text/css">
+html {
+  background: url(images/dph-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+    background: transparent;
+}
+
     .dossier-start-bg {
-        background-image:url(../../images/cover/dph-dossier-start-bg.jpg);
         background-size: 100%;
         text-align:center;
         }
@@ -54,7 +65,7 @@
 
 </style>
 
-    <div class="container" style="min-height:100%;width:100%;background:url( images/dph-dossier-start-bg.jpg ) top center no-repeat">
+    <div class="container" style="min-height:100%;width:100%;">
         <div class="sixteen columns dossier-start-bg" style="height:100%;min-height:100%;display:block;overflow:hidden;">
 
 
