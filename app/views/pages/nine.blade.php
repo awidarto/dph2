@@ -42,7 +42,7 @@
         悲伤能像气球，从此飞向天际吗？也许罢。也或许，一世人的时间，只须两三个星期，恩仇便泯，只剩下最重要的，从此存留。
     </p>
     <p>
-        注：可在此观赏相关影片。
+        注：可在<a href="http://www.youtube.com/watch?v=stA1xZ7xahw" >此</a>观赏相关影片。
     </p>
     <p class="center">
         <img src="{{ URL::to('/')}}/chapter_data/images/09.jpg"/>

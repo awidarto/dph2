@@ -144,7 +144,7 @@ Route::get('toc',function($name = null){
         $next = 'chapter/'.$pages[$current + 1];
     }
 
-    if($prev == 'chapter/cover'){
+    if($prev == 'chapter/cover' || $prev == 'chapter/preface'){
         $prev = 'toc';
     }
 

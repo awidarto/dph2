@@ -18,7 +18,7 @@
     "-baker-page-numbers-color": "#333",
 
     "contents": [
-        "cover.html",
+        "preface.html",
         "one.html",
         "two.html",
         "three.html",
@@ -38,10 +38,9 @@
 
     "metadata": [
         {
-            "title": "走过托福园",
+            "title": "序：得着远比失去多。",
             "synopsis" :""
         },
-
         {
             "title": "朱丽娅",
             "synopsis" :"有一瞬间，她们完全静止，好像罗马城里那座永恒的大理石雕塑，纯洁，美丽。"

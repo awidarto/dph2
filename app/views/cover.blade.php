@@ -4,7 +4,7 @@
 
 <style type="text/css">
 html {
-  background: url(images/dph-bg.jpg) no-repeat center center fixed;
+  background: transparent url(images/dph-bg.jpg) no-repeat fixed center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,17 +15,13 @@ body{
     background: transparent;
 }
 
-    .dossier-start-bg {
-        background-size: 100%;
-        text-align:center;
-        }
-
-    .dossier-start-bg img {
-        margin-top:200px;
-        }
+.dossier-start-bg {
+    background-size: 100%;
+    text-align:center;
+}
 
 .cover-nav{
-    margin-top: 400px;
+    margin-top: 5%;
     display:inline-block;
     vertical-align: middle;
 }
@@ -42,25 +38,10 @@ body{
     color:#444;
 }
 
-
-@media only screen and (max-width: 767px) {
-
-    .dossier-start-bg img {
-        width:90%;
-        height:auto;
-    }
-
+.cover-title{
+    margin-top: 20%;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-    .dossier-start-bg img {
-        width:90%;
-        height:auto;
-        margin-top:0px;
-    }
-
-}
 
 
 </style>
@@ -68,10 +49,12 @@ body{
     <div class="container" style="min-height:100%;width:100%;">
         <div class="sixteen columns dossier-start-bg" style="height:100%;min-height:100%;display:block;overflow:hidden;">
 
-
-            <div class="cover-nav">
+            <div class="cover-title">
                 <h1>走过托福园</h1>
                 <h3>赖国芳</h3>
+            </div>
+
+            <div class="cover-nav">
                 <a href="{{ URL::to('toc')}}">
                     <span class="fa-stack fa-3x">
                       <i class="fa fa-circle fa-stack-2x"></i>

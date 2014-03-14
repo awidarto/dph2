@@ -41,5 +41,8 @@
     </p>
     <p>
         两个小时后，八名义工围坐走廊沙发椅，闲谈用点心。其中数人，决定下周三，特加一班。
-        最后含笑出现。
     </p>
+        <p class="center">
+        <img src="{{ URL::to('/')}}/chapter_data/images/04.jpg" />
+    </p>
+

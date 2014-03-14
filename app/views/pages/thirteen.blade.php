@@ -92,5 +92,5 @@
         世事无常，人生荒缪。追根究底，反而伤神。北宋的太平宰相晏殊，圆融淡定，却在节骨眼上，截铁斩钉，一点也不含糊。他说：劝君莫作独醒人，烂醉花间应有数。
     </p>
     <p>
-        注：更多杰西卡的故事在这里。
+        注：更多杰西卡的故事在<a href="http://video.xin.msn.com/watch/video/letters-to-heaven-episode-5/1dk6wxktd">这里</a>。
     </p>
