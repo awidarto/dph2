@@ -54,6 +54,7 @@ Route::get('cover',function(){
         $index++;
     }
 
+    $firstchapter = 'preface';
 
     return View::make('cover')->with('firstchapter','chapter/'.$firstchapter);
 });
