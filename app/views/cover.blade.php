@@ -51,7 +51,6 @@ body{
 
             <div class="cover-title">
                 <h1>走过托福园</h1>
-                <h3>赖国芳</h3>
             </div>
 
             <div class="cover-nav">

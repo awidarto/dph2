@@ -28,7 +28,7 @@
                  <iframe src="http://www.youtube.com/embed/94QbQaTK364" frameborder="0" width="560" height="315"></iframe>
         </div>
 
-        <div class="caption"><p>周杰倫 洪榮宏 - 阿爸 Mr.J頻道<br />(Internet connection required).</p>
+        <div class="caption"><p>周杰倫 洪榮宏：<a href="http://www.youtube.com/watch?v=94QbQaTK364">阿爸</a></p>
         </div>
     </p>
 

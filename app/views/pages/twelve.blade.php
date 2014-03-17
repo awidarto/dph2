@@ -20,7 +20,7 @@
              <iframe src="http://www.youtube.com/embed/cGRNqkP35qM" frameborder="0" width="560" height="315"></iframe>
         </div>
 
-        <div class="caption"><p>Hospice Sweetheart Wed<br />(Internetconnection required).</p></div>
+        <div class="caption"><p><a href="http://www.youtube.com/watch?v=cGRNqkP35qM">Hospice Sweetheart Wed</a></p></div>
     </p>
     <p>
         两位平凡人，在生命与疾病的重压下，奄奄喘气。新郎软弱的双腿，甚至难以支撑自己的身躯。但是，他们行了难行之事。到最后，新娘说：我们结婚了。然后幽幽地说：我会想念他的。
@@ -41,7 +41,7 @@
         <div class="video-container">
              <iframe src="http://www.youtube.com/embed/0l0nbr4U5ns" frameborder="0" width="560" height="315"></iframe>
         </div>
-            <div class="caption"><p>林憶蓮 至少還有你<br />(Internet connection required).</p></div>
+            <div class="caption"><p>林憶蓮 至少還有你</p></div>
     </p>
     <p>
         多美的歌词。当你的发线有了白雪的痕迹，我的视线也变得模糊，你掌心的痣，我总还会记得在哪里。

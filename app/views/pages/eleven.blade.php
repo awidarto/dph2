@@ -63,7 +63,7 @@
         <img src="{{ URL::to('/')}}/chapter_data/images/11.jpg" />
     </p>
     <p>
-        注：
-        艾丝客串的宣传影片在这里：<a href="http://www.youtube.com/watch?v=stA1xZ7xahw">http://www.youtube.com/watch?v=stA1xZ7xahw</a> ，在2:10处，中间端茶的那个。<br />
-        李宗盛唱“爱的代价”的录影在这里：<a href="http://www.youtube.com/watch?v=X_-M3a5Q9RM">http://www.youtube.com/watch?v=X_-M3a5Q9RM</a> ，美丽的张艾嘉在最后含笑出现。
+        注：<br />
+        艾丝客串的宣传影片在<a href="http://www.youtube.com/watch?v=stA1xZ7xahw">这里</a>： 在2:10处，中间端茶的那个。 <br />
+        李宗盛唱“爱的代价”的录影在<a href="http://www.youtube.com/watch?v=X_-M3a5Q9RM">这里</a>： 美丽的张艾嘉在最后含笑出现。
     </p>

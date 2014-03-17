@@ -73,10 +73,7 @@
              <iframe src="http://www.youtube.com/embed/TEayyXfWh1E" frameborder="0" width="560" height="315"></iframe>
         </div>
 
-        <div class="caption"><p>國寶天后江蕙最新單曲【溫溫的】<br />(Internetconnection required).</p></div>
-    </p>
-    <p>
-        <a href="http://www.youtube.com/watch?v=TEayyXfWh1E">[链结]</a>
+        <div class="caption"><p>江蕙：<a href="http://www.youtube.com/watch?v=TEayyXfWh1E">溫溫的</a></p></div>
     </p>
     <p>
         小小屋里摆满古璞的泥雕。他细心雕塑的是谁呢？他白发苍苍，面相平和，也有一抹淡淡的哀愁。歌词轻轻叮咛：

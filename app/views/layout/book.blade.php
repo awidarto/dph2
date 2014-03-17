@@ -206,14 +206,29 @@
         --}}
         <div id="nav-box" class="five columns" style="display:block;padding:6px;">
             <ul class="nav" style="display:inline-block;margin:0px;margin-top:8px;">
-                <li>
-                    <a href="{{ URL::to('toc')}}">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-list fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
+                @if($prev == 'toc')
+                    <li>
+                        <a href="{{ URL::to('cover')}}">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                @else
+                    <li>
+                        <a href="{{ URL::to('toc')}}">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-list fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                @endif
+
+
                 @if($prev != 'toc')
                 <li>
                     <a href="{{ URL::to($prev)}}">

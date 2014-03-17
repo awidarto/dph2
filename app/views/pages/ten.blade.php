@@ -30,7 +30,7 @@
                  <iframe src="http://www.youtube.com/embed/I0ZO5O1P2IY" frameborder="0" width="560" height="315"></iframe>
         </div>
 
-        <div class="caption"><p>江惠：家后。不甘你为我目屎流。<br />(Internet connection required).</p></div>
+        <div class="caption"><p>江惠：家后。<a href="http://www.youtube.com/watch?v=I0ZO5O1P2IY">不甘你为我目屎流</a></p></div>
     <p>
         时间终于来到。老妇人蹒跚步入慈怀中心，一拐一拐，最后一次走到丈夫的床前。她一生未染铅华，没受过高深教育，但她知道怎么做，也做了一世。 那日，所有人一起站立，静默无声。我的琴声，也戛然而止。家后，是她尊贵的华冠。
     </p>

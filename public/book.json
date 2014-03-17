@@ -33,12 +33,13 @@
         "twelve.html",
         "thirteen.html",
         "fourteen.html",
-        "fifteen.html"
+        "fifteen.html",
+        "endnote.html"
      ],
 
     "metadata": [
         {
-            "title": "序：得着远比失去多。",
+            "title": "得着远比失去多",
             "synopsis" :""
         },
         {
@@ -101,6 +102,10 @@
         {
             "title": "送行者",
             "synopsis" :"那对母子，在一个炎热的午后，躲在阴凉的角落，享受彼此的体温。他们找寻一些特殊的广告，沉浸在简单的快乐之中。"
+        },
+        {
+            "title": "后记",
+            "synopsis" :""
         }
 
      ]

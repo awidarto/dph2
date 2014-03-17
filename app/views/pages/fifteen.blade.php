@@ -26,7 +26,7 @@
     <div class="video-container">
              <iframe src="http://www.youtube.com/embed/8V3-ntxNf-s" frameborder="0" width="560" height="315"></iframe>
     </div>
-    <div class="caption"><p>送行者片段。- 领悟、接纳和忏悔。<br />(Internet connection required).</p></div>
+    <div class="caption"><p><a href="http://www.youtube.com/watch?v=8V3-ntxNf-s">送行者片段</a>。领悟、接纳和忏悔。</p></div>
 <p>
     香港作家西西，在成名作“像我这样的一个女子”里，讲述70年代，一个专职为遗体化妆的年轻女子。因为长期在阴暗的地方工作， 肤色苍白。她的脸容朴素，常着素白衣服，为了方便出入工作的地方。她初识的男朋友，喜欢她这个样子，以为她的工作是为新娘化妆，却不知道，“他一直以为是我为他而洒的香水，其实不过是附在我身体上的防腐剂的气味吧了”。在她准备向他表白的那个约会，男友带来一束巨大的花朵，非常非常地美丽。他很快乐，她却很悲伤，因为，在她们的行业中，花朵，就是诀别的意思。
 </p>
