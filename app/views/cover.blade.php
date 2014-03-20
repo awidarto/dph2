@@ -4,7 +4,7 @@
 
 <style type="text/css">
 html {
-  background: transparent url(images/dph-bg.jpg) no-repeat fixed center bottom;
+  background: transparent url(images/dph-bg.jpg) center bottom no-repeat fixed ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
