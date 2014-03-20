@@ -42,6 +42,62 @@ body{
     margin-top: 20%;
 }
 
+/* Laptop/Tablet (1024px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 41px;
+      line-height: 50px;
+      margin-bottom: 100px;
+    }
+
+    i{
+        font-size: 30px;
+    }
+}
+
+/* iPad 3 & 4 Landscape */
+@media only screen and (width: 481px) and (width: 1024px) and (orientation: landscape) {
+}
+
+/* iPad 3 & 4 Portrait */
+@media only screen and (width: 481px) and (width: 1024px) and (orientation: portrait) {
+}
+
+/* iPhone 2G-3GS Landscape */
+@media only screen and (width: 481px) and (width: 480px) and (orientation: landscape) {
+}
+
+/* iPhone 2G-3Gs Portrait */
+@media only screen and (width: 481px) and (width: 480px) and (orientation: portrait) {
+}
+
+/* iPhone 4/4S Landscape */
+@media only screen and (width: 569px) and (width: 480px) and (orientation: landscape) {
+}
+
+/* iPhone 4/4S Portrait */
+@media only screen and (width: 569px) and (width: 480px) and (orientation: portrait) {
+}
+
+/* iPhone 5 Landscape */
+@media only screen and (width: px) and (width: 568px) and (orientation: landscape) {
+}
+
+/* iPhone 5 Portrait */
+@media only screen and (width: px) and (width: 568px) and (orientation: portrait) {
+}
 
 
 </style>

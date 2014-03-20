@@ -38,6 +38,10 @@
 
     <style type="text/css">
 
+        h1{
+            font-size: 32px;
+        }
+
         ul.nav li{
             float:left;
             margin: 0px;

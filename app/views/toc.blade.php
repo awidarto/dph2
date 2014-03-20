@@ -12,43 +12,84 @@
 
         p.synopsis{
             margin: 0px;
+            font-size: 12px;
         }
+
+        .toc-item a{
+            text-decoration: none;
+        }
+
+        .toc-item a .item-bar{
+            padding:5px;
+            padding-left:95px;
+            min-height:80px;
+            height:80px;
+            position: relative;
+            padding-right: 40px;
+        }
+
+
 
         .item-img img{
             border-radius: 16px;
         }
 
         h3 {
-        font-size: 24px;
-        margin-bottom: 8px;
-        }
-
-        @media only all and (min-width: 480px) and (max-width: 767px) {
-            .synopsis, .chevron{
-                display:none;
-            }
-
-            h3{
-                margin-top: 15px;
-                margin-left: 15px;
-            }
-
+            font-size: 20px;
+            margin-bottom: 8px;
         }
 
         .chevron{
-            color: #999;
+            position: absolute;
+            top:0;
+            right:0;
+            height: 100%;
+            width: 30px;
+            display: inline-block;
+            background: url({{ URL::to('/') }}/chapter_data/thumbs/chevronright.png) top right no-repeat;
         }
 
-        @media only all and (max-width: 479px) {
-            .synopsis, .chevron{
-                display:none;
-            }
 
-            h3{
-                margin-top: 15px;
-                margin-left: 15px;
-            }
+
+    /* Laptop/Tablet (1024px) */
+    @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+
+    }
+
+    /* Tablet Portrait (768px) */
+    @media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+    }
+
+    /* Phone Landscape (480px) */
+    @media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+    }
+
+    /* Phone Portrait (320px) */
+    @media only screen and (max-width: 320px) {
+        .synopsis, .chevron{
+            display:none;
         }
+
+        h3{
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .synopsis{
+            display:none;
+        }
+
+        h3{
+            margin-top: 15px;
+            margin-left: 15px;
+            font-size: 16px;
+        }
+    }
+
+
+
 
 
     </style>
@@ -63,18 +104,12 @@
             <?php
                 $tname = str_pad($idx,2,'0', STR_PAD_LEFT);
                 if(!file_exists(public_path().'/chapter_data/thumbs/'.$tname.'.png')){
-                    $tname = 'nothumb';
+                    $tname = 'transthumb';
                 }
             ?>
         <li class="toc-item">
             <a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">
-            @if($page != 'preface' && $page != 'endnote')
-                <div class="container" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/{{ $tname }}.png) 10px 10px no-repeat; background-size: 75px 75px;padding:5px;padding-left:85px;min-height:80px;height:80px" >
-                    <div class="thirteen columns">
-            @else
-                <div class="container" style="padding:5px;padding-left:20px;min-height:80px;height:80px" >
-                    <div class="fourteen columns" style="padding-top:25px;" >
-            @endif
+                <div class="item-bar" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/{{ $tname }}.png) 10px 10px no-repeat;background-size: 75px 75px;" >
 
                         @if($page == 'preface' || $page == 'endnote')
                             <h3>{{ $title }}</h3>
@@ -85,11 +120,8 @@
                             </p>
                         @endif
                             <?php $idx++; ?>
-                    </div>
-
-                    <div class="one columns chevron" style="position:relative;">
-                        <i class="fa fa-chevron-right fa-2x" style="position:absolute;right:0;top:30px;margin:auto 0px auto 0px;" ></i>
-                    </div>
+                        <div class="chevron">
+                        </div>
                 </div>
             </a>
         </li>
@@ -98,6 +130,17 @@
     @endforeach
 
 <?php
+/*
+            @if($page != 'preface' && $page != 'endnote')
+                    <div class="fourteen columns" style="" >
+            @else
+                    <div class="fourteen columns" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/chevronright.png) top right no-repeat;padding-right:30px;padding-top:25px;" >
+            @endif
+
+                    </div>
+
+*/
+
 function truncate($string, $length, $stopanywhere=false) {
     //truncates a string to a certain char length, stopping on a word if not specified otherwise.
     if (strlen($string) > $length) {
