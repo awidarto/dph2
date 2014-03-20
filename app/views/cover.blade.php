@@ -59,7 +59,7 @@ body{
     h1 {
       font-size: 41px;
       line-height: 50px;
-      margin-bottom: 100px;
+      margin-bottom: 60px;
     }
 
     i{
