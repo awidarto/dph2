@@ -167,13 +167,10 @@
             text-align: center;
         }
 
-        /* Phone Portrait (320px) */
-        @media only screen and (max-width: 320px) {
-            img#end-note{
-                width:100%;
-                max-width: 300px;
-                height: auto;
-            }
+        img#end-note{
+            width:100%;
+            max-width: 320px;
+            height: auto;
         }
 
 
