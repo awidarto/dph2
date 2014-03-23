@@ -167,6 +167,15 @@
             text-align: center;
         }
 
+        /* Phone Portrait (320px) */
+        @media only screen and (max-width: 320px) {
+            img#end-note{
+                width:100%;
+                height: auto;
+            }
+        }
+
+
     </style>
 
     {{ HTML::script('js/jquery-1.11.0.min.js') }}
