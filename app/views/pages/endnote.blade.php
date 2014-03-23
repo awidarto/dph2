@@ -20,7 +20,7 @@
 </p>
 
 <p class="center">
-    <img src="{{ URL::to('/')}}/chapter_data/images/dr-stella-wee.jpg" /><br />
+    <img src="{{ URL::to('/')}}/chapter_data/images/dr-stella-wee.jpg" style="max-width:320px;" /><br />
 </p>
 <div class="video-container">
          <iframe src="http://www.youtube.com/embed/stA1xZ7xahw" frameborder="0" width="560" height="315"></iframe>
