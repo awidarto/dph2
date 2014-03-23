@@ -169,7 +169,7 @@
 
         img#end-note{
             width:100%;
-            max-width: 310px;
+            max-width: 285px;
             height: auto;
         }
 
