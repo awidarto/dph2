@@ -171,6 +171,7 @@
         @media only screen and (max-width: 320px) {
             img#end-note{
                 width:100%;
+                max-width: 300px;
                 height: auto;
             }
         }
