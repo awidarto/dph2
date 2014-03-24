@@ -6,6 +6,12 @@
     赖国芳<br />
     (<a href="https://www.blogger.com/profile/12661532713631923181">简介</a>)
 </p>
+<p class="center">
+    <strong>Dr Stella Wee, Chief Executive Officer, Dover Park Hospice</strong>
+</p>
+<p class="center">
+    <img id="end-note" src="{{ URL::to('/')}}/chapter_data/images/dr-stella-wee.jpg" /><br />
+</p>
 <p>
     Dover Park Hospice continually aims to create the very best environment possible for terminally ill patients to receive consistent care services along their end-of-life journey from a team of Palliative Care professionals and support staff.
 </p>
@@ -19,9 +25,6 @@
     People are generally more aware and open to be empowered and hence, proactive in managing end-of-life issues and this has helped patients to pass on peacefully with comfort, grace and dignity;  for our patients, <strong><i>"Every Moment Matters"</i></strong>.
 </p>
 
-<p class="center">
-    <img id="end-note" src="{{ URL::to('/')}}/chapter_data/images/dr-stella-wee.jpg" /><br />
-</p>
 <div class="video-container">
          <iframe src="http://www.youtube.com/embed/stA1xZ7xahw" frameborder="0" width="560" height="315"></iframe>
 </div>
