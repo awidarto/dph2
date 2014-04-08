@@ -8,7 +8,7 @@
     <!-- Basic Page Needs
   ================================================== -->
     <meta charset="utf-8">
-    <title>Dover Park Stories</title>
+    <title>走过托福园</title>
     <meta name="description" content="">
     <meta name="author" content="Andy Awidarto">
     <!-- Mobile Specific Metas
@@ -22,7 +22,6 @@
     {{ HTML::style('stylesheets/skeleton.css') }}
     {{ HTML::style('stylesheets/layout.css') }}
     {{ HTML::style('font-awesome-4.0.3/css/font-awesome.min.css') }}
-    {{ HTML::style('stylesheets/slicknav.css') }}
 
 
     <!--[if lt IE 9]>
@@ -42,18 +41,7 @@
             font-size: 32px;
         }
 
-        ul.nav li{
-            float:left;
-            margin: 0px;
-        }
 
-        ul.nav li a{
-            padding: 8px;
-            padding-top: 16px;
-            padding-bottom: 6px;
-            margin: 4px;
-            color:#999;
-        }
 
         ul#menu{
             z-index: 1000;
@@ -176,24 +164,10 @@
 
     </style>
 
-    {{ HTML::script('js/jquery-1.11.0.min.js') }}
 
-    {{ HTML::script('js/jquery.slicknav.min.js') }}
+    {{-- HTML::script('js/jquery-1.11.0.min.js') --}}
 
-    <script type="text/javascript">
-        /*
-
-
-        */
-        $(document).ready(function(){
-            /*
-            $('#bt-toc').on('click',function(){
-                $('#menu').toggle();
-                return false;
-            })
-            */
-        });
-    </script>
+    {{-- HTML::script('js/jquery.slicknav.min.js') --}}
 
 </head>
 <body>
@@ -317,7 +291,7 @@
     </div>
 
     <div class="container">
-        <div class="sixteen columns">
+        <div class="sixteen columns" id="content-body" >
             @yield('content')
         </div>
 

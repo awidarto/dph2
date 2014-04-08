@@ -27,13 +27,7 @@
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container div#content-body p, .container div#content-body h1{
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-
-    }
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {}
@@ -46,32 +40,12 @@
 
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
         .container div#content-body p, .container div#content-body h1{
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-
-    }
-
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
-    .container div#content-body p, .container div#content-body h1{
             margin-right: 15px;
             margin-left: 15px;
         }
 
     }
 
-    ul.nav li{
-        float:left;
-        margin: 0px;
-    }
-
-    ul.nav li a{
-        padding: 8px;
-        padding-top: 16px;
-        padding-bottom: 6px;
-        margin: 4px;
-        color:#999;
-    }
 
 /* #Font-Face
 ================================================== */

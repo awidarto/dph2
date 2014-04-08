@@ -49,6 +49,9 @@
             background: url({{ URL::to('/') }}/chapter_data/thumbs/chevronright.png) top right no-repeat;
         }
 
+        h3.no-thumb{
+            margin-top: 20px;
+        }
 
 
     /* Laptop/Tablet (1024px) */
@@ -58,6 +61,7 @@
 
     /* Tablet Portrait (768px) */
     @media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+
     }
 
     /* Phone Landscape (480px) */
@@ -108,11 +112,15 @@
                 }
             ?>
         <li class="toc-item">
+        @if($flat == true)
+            <a class="scroll" href="{{ URL::to($pages[$idx])}}.html">
+        @else
             <a class="scroll" href="{{ URL::to('chapter/'.$pages[$idx])}}">
+        @endif
                 <div class="item-bar" style="background: url({{ URL::to('/') }}/chapter_data/thumbs/{{ $tname }}.png) 10px 10px no-repeat;background-size: 75px 75px;" >
 
                         @if($page == 'preface' || $page == 'endnote')
-                            <h3>{{ $title }}</h3>
+                            <h3 class="no-thumb">{{ $title }}</h3>
                         @else
                             <h3>{{ $idx }}. {{ $title }}</h3>
                             <p class="synopsis">
